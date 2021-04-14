@@ -1,0 +1,6 @@
+# To support Javascript rendering in requests-html on Ubuntu,
+# it may be necessary to also install additional system packages:
+#
+#   sudo apt-get install chromium-browser libxss1
+#
+requests-html
