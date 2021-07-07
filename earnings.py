@@ -112,7 +112,7 @@ def process_page(url: str, verbose: bool) -> Optional[tuple]:
         # Page loading has failed to return the row afer 'max_retries'
         return None
 
-    data = row.find(".rt-td div")
+    data = row.find(".rt-td")
 
     return data[0].text, data[1].text
 
